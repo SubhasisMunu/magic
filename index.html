@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             background-color: aliceblue;
             text-transform: capitalize;
             display: flex;
@@ -14,11 +14,12 @@
             justify-content: center;
             margin-top: 200px;
         }
-        h1{
+
+        h1 {
             color: blueviolet;
             border: 2px solid black;
             padding: 30px;
-            background-color:cornsilk;
+            background-color: cornsilk;
         }
     </style>
 </head>
@@ -29,7 +30,8 @@
         document.addEventListener("copy", (event) => {
             const selectedData = window.getSelection().toString();
             // Use a valid MIME type
-            event.clipboardData.setData("text/plain", "🖕");
+            //event.clipboardData.setData("text/plain", "🖕"); 
+            event.clipboardData.setData("text/plain", "khelega free fire ?😂🤣");
             event.preventDefault(); // Prevent the default copy behavior
         });
     </script>
